@@ -1,0 +1,63 @@
+/* banner */
+section.banner_bg{
+    /* border: 1px solid red; */
+    background-image: url("../images/pexels-karolina-grabowska-4041183.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: var(--bg-color);   先不加 */
+     /* min-height: var(--page-width); */
+}
+
+
+section.sec2{
+    /* border: 1px solid blue; */
+    min-width: var(--page-width);
+    padding: 50px 0 ;
+}
+section.sec2.-type1{
+    background: linear-gradient(white,#FFC78E);
+}
+section.sec2.-type2{
+    background: linear-gradient(#FFC78E, white);
+}
+section.sec2 div.flex_container{
+    /* border: 1px solid red; */
+    width: var(--page-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+section.sec2 div.flex_container div.flex_item{
+    /* border: 1px solid green; */
+    flex-basis: 50%; 
+}
+section.sec2 div.flex_container div.flex_item img{
+    width: 100%;
+}
+section.sec2 div.flex_container div.flex_item.-right{
+    padding: 50px;
+}
+section.sec2 div.flex_container div.flex_item.-right h1.title1{
+    margin: 0;
+    font-size: 3rem;
+    color: 	#3C3C3C;
+    font-weight: bold;
+}
+section.sec2.-type2 div.flex_container div.flex_item.-right h1.title1{
+    text-align: right;
+    color: 	#3C3C3C;
+    font-weight: bold;
+}
+section.sec2 div.flex_container div.flex_item.-right p.para{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: 	#3C3C3C;
+    font-weight: bold;
+}
+section.sec2.-type2 div.flex_container div.flex_item.-right p.para{
+    text-align: right;
+    color: 	#3C3C3C;
+    font-weight: bold;
+}

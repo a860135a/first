@@ -1,0 +1,57 @@
+/* banner */
+section.banner_bg{
+    /* border: 1px solid red; */
+    background-image: url("../images/pexels-karolina-grabowska-4041183.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: var(--bg-color);   先不加 */
+     /* min-height: var(--page-width); */
+}
+
+/* 中間區域 */
+div.main_block{
+    /* border: 1px solid blue; */
+    min-height: calc(100vh-60px-200px-146px);
+    font-size:1.6rem;
+    min-width:var(--page-width);
+    background-color: var(--bg-color);
+    background-image:url() ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+div.main_block div.inner_block{
+    /* border: 1px solid red; */
+    width:var(--page-width);
+    margin: 20px auto;
+    font-size: 0;
+}
+
+/* 固定式二欄式 */
+div.main_block div.inner_block aside.aside,div.main_block div.inner_block main.main{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.6rem;
+    color: 	#9F4D95;
+    font-weight: bold;
+ 
+    border: 1px solid gray;
+    padding: 40px;
+    background-color: hsla(0, 0%, 100%, .9);
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray inset;
+ }
+ div.main_block div.inner_block aside.aside{
+    /* border: 1px solid yellow; */
+    width: 500px;
+    margin-right: 50pxs;
+    font-size: 3rem;
+    color: 		#9F4D95;
+    text-align: center;
+    /* font-weight: bold; */
+  }
